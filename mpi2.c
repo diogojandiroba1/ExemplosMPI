@@ -14,6 +14,7 @@ int main(void) {
    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank); 
 
 
+
    if (my_rank != 0) { 
       /* Criação da mensagem */
       sprintf(message, "Msg do processo %d of %d!", my_rank, comm_size); 
