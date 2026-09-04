@@ -22,5 +22,5 @@ int main(int argc, char* argv[]) {
     printf("Processo %d recebeu o número: %d\n", my_rank, numero);
 
     MPI_Finalize(); // Finaliza MPI
-    return 0;
+    return 0; // teste
 }
